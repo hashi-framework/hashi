@@ -1,0 +1,22 @@
+[versions]
+kotlin = "2.0.0"
+kotlinx-coroutine = "1.8.1"
+kotlinx-serialization = "1.7.1"
+spigot-api = "1.21-R0.1-SNAPSHOT"
+velocity-api = "3.3.0-SNAPSHOT"
+
+[libraries]
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
+kotlinx-coroutine-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutine" }
+kotlinx-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
+platform-spigotApi = { module = "io.papermc.paper:paper-api", version.ref = "spigot-api" }
+platform-paperApi = { module = "io.papermc.paper:paper-api", version.ref = "spigot-api" }
+platform-velocityApi = { module = "com.velocitypowered:velocity-api", version.ref = "velocity-api" }
+
+[bundles]
+kotlin = ["kotlin-stdlib", "kotlin-reflect", "kotlinx-coroutine-core", "kotlinx-serialization"]
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+shadow = { id = "io.github.goooler.shadow", version = "8.1.8" }
