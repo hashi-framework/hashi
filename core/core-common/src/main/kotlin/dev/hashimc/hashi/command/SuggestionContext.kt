@@ -4,8 +4,6 @@ import net.kyori.adventure.text.Component
 
 interface SuggestionContext : CommandContext {
 
-    val input: String
-
     val start: Int
 
     val remaining: String
