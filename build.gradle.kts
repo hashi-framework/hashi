@@ -29,6 +29,11 @@ allprojects {
     }
 
     dependencies {
-        implementation(rootProject.libs.adventure.api)
+        api(rootProject.libs.adventure.api)
+        api(rootProject.libs.adventure.text.minimessage)
+        api(rootProject.libs.adventure.text.serializer.gson)
+        api(rootProject.libs.adventure.text.serializer.legacy)
+        api(rootProject.libs.adventure.text.serializer.plain)
+        api(rootProject.libs.adventure.text.serializer.ansi)
     }
 }

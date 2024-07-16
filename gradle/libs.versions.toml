@@ -15,7 +15,12 @@ platform-spigotApi = { module = "org.spigotmc:spigot-api", version.ref = "spigot
 platform-paperApi = { module = "io.papermc.paper:paper-api", version.ref = "spigot-api" }
 platform-velocityApi = { module = "com.velocitypowered:velocity-api", version.ref = "velocity-api" }
 
-adventure-api = { module = "net.kyori:adventure-api", version.ref = "adventure"}
+adventure-api = { module = "net.kyori:adventure-api", version.ref = "adventure" }
+adventure-text-minimessage = { group = "net.kyori", name = "adventure-text-minimessage", version.ref = "adventure" }
+adventure-text-serializer-gson = { group = "net.kyori", name = "adventure-text-serializer-gson", version.ref = "adventure" }
+adventure-text-serializer-legacy = { group = "net.kyori", name = "adventure-text-serializer-legacy", version.ref = "adventure" }
+adventure-text-serializer-plain = { group = "net.kyori", name = "adventure-text-serializer-plain", version.ref = "adventure" }
+adventure-text-serializer-ansi = { group = "net.kyori", name = "adventure-text-serializer-ansi", version.ref = "adventure" }
 
 [bundles]
 kotlin = ["kotlin-stdlib", "kotlin-reflect", "kotlinx-coroutine-core", "kotlinx-serialization"]

@@ -9,7 +9,7 @@ import net.kyori.adventure.text.Component
 object EventTest {
 
     val testListener by event<PlayerJoinEvent> {
-        this.player.message(Component.text("hello!"))
+        this.player.sendMessage(Component.text("hello!"))
     }
 
     fun test() {

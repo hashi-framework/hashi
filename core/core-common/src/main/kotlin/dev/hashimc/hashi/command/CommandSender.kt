@@ -1,11 +1,7 @@
 package dev.hashimc.hashi.command
 
-import net.kyori.adventure.text.Component
+import net.kyori.adventure.audience.Audience
 
-interface CommandSender {
-
-    fun message(message: String)
-
-    fun message(message: Component)
+interface CommandSender : Audience {
 
 }
