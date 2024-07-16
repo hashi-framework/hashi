@@ -27,4 +27,8 @@ allprojects {
         maven("https://repo.papermc.io/repository/maven-public/")
         maven("https://maven.nostal.ink/repository/maven-public")
     }
+
+    dependencies {
+        implementation(rootProject.libs.adventure.api)
+    }
 }

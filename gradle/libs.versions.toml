@@ -4,6 +4,7 @@ kotlinx-coroutine = "1.8.1"
 kotlinx-serialization = "1.7.1"
 spigot-api = "1.18-R0.1-SNAPSHOT"
 velocity-api = "3.3.0-SNAPSHOT"
+adventure = "4.17.0"
 
 [libraries]
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
@@ -13,6 +14,8 @@ kotlinx-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-
 platform-spigotApi = { module = "org.spigotmc:spigot-api", version.ref = "spigot-api" }
 platform-paperApi = { module = "io.papermc.paper:paper-api", version.ref = "spigot-api" }
 platform-velocityApi = { module = "com.velocitypowered:velocity-api", version.ref = "velocity-api" }
+
+adventure-api = { module = "net.kyori:adventure-api", version.ref = "adventure"}
 
 [bundles]
 kotlin = ["kotlin-stdlib", "kotlin-reflect", "kotlinx-coroutine-core", "kotlinx-serialization"]
