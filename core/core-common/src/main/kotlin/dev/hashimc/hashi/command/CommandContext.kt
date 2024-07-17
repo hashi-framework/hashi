@@ -1,6 +1,6 @@
 package dev.hashimc.hashi.command
 
-import dev.hashimc.hashi.entity.Player
+import dev.hashimc.hashi.world.entity.Player
 
 interface CommandContext {
 

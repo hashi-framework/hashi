@@ -1,6 +1,6 @@
 package dev.hashimc.hashi.test
 
-import dev.hashimc.hashi.entity.Player
+import dev.hashimc.hashi.world.entity.Player
 import dev.hashimc.hashi.event.PlayerJoinEvent
 import dev.hashimc.hashi.event.event
 import dev.hashimc.hashi.event.getValue

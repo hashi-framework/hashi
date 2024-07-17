@@ -1,6 +1,6 @@
 plugins {
     id("java")
-    alias(libs.plugins.kotlin)
+    alias(libs.plugins.kotlin.jvm)
 }
 
 group = "dev.hashimc.hashi"
@@ -23,6 +23,7 @@ allprojects {
         mavenCentral()
         mavenLocal()
         google()
+        maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
         maven("https://oss.sonatype.org/content/repositories/snapshots/")
         maven("https://repo.papermc.io/repository/maven-public/")
         maven("https://maven.nostal.ink/repository/maven-public")

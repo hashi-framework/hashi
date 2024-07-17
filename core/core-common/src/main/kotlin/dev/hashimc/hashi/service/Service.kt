@@ -4,6 +4,6 @@ interface Service {
 
 }
 
-fun <T: Service> service(): T {
+inline fun <reified T: Service> service(): T {
     TODO()
 }

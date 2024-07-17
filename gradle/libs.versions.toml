@@ -5,6 +5,7 @@ kotlinx-serialization = "1.7.1"
 spigot-api = "1.18-R0.1-SNAPSHOT"
 velocity-api = "3.3.0-SNAPSHOT"
 adventure = "4.17.0"
+compose = "1.6.11"
 
 [libraries]
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
@@ -26,5 +27,7 @@ adventure-text-serializer-ansi = { group = "net.kyori", name = "adventure-text-s
 kotlin = ["kotlin-stdlib", "kotlin-reflect", "kotlinx-coroutine-core", "kotlinx-serialization"]
 
 [plugins]
-kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 shadow = { id = "io.github.goooler.shadow", version = "8.1.8" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-compose = {id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+compose = {id = "org.jetbrains.compose", version.ref = "compose" }
